@@ -16,7 +16,7 @@ Extensión para mejorar la experiencia en el Campus FIUBA.
 
 - Descargar el proyecto como ZIP (botón verde más arriba)
 - Descomprimir ZIP en una destinación permanente
-- En el navegador, ir a `chrome://extensions/`
+- En el navegador, ir a [chrome://extensions/](chrome://extensions/)
 - Clickear "Cargar extensión sin empaquetar"
 - Elegir la carpeta del proyecto
 - Activar la extensión
