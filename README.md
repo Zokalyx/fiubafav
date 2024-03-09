@@ -15,7 +15,7 @@ Extensión para mejorar la experiencia en el Campus FIUBA.
 # Instalación
 
 - Descargar el proyecto como ZIP (botón verde más arriba) y descomprimir
-- Ir al menú de extensiones (`chrome://extensions`)
+- Ir al menú de extensiones del navegador (`chrome://extensions`)
 - Encender modo desarollador
 - Arrastrar la carpeta descargada al navegador
 
