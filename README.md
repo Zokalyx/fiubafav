@@ -6,11 +6,20 @@ Extensión para mejorar la experiencia en el Campus FIUBA.
 
 # Funciones
 
-![](example.jpg)
-
 - Renombrar materias en el sidebar a un nombre personalizado
 - Elegir materias "favoritas" o "activas"
 - Añadir cualquier materia del campus al sidebar
+
+![](example.jpg)
+
+# Instalación
+
+- Descargar el proyecto como ZIP (botón verde más arriba)
+- Descomprimir ZIP en una destinación permanente
+- En el navegador, ir a `chrome://extensions/`
+- Clickear "Cargar extensión sin empaquetar"
+- Elegir la carpeta del proyecto
+- Activar la extensión
 
 # Modificaciones adicionales
 - Elimina la barra azul gigante que no sirve para nada y saca espacio

@@ -344,7 +344,6 @@ class SubjectList {
                 alert("Número inválido, probá de nuevo");
                 return;
             }
-            alert(id);
             let name = prompt("Ingresá el nombre de la materia");
 
             let subjectElement = this.templateElement.cloneNode(true);
