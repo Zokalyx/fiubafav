@@ -130,12 +130,14 @@ class Subject {
         this.element.appendChild(container);
     }
 
-    // Esto se hace acá para poder bindear variables locales al Subject
     attachIconCallbacks() {
         const optionsIcon = this.getIcon("options");
         optionsIcon.addEventListener("click", (event) => {
             event.preventDefault();
-            this.setText(prompt("Nombre de la materia:"));
+            const newName = prompt("Nombre de la materia:");
+            if (newName !== null) {
+                this.setText(newName);
+            }
         });
 
         const favoriteIcon = this.getIcon("favorite");
