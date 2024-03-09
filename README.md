@@ -1,4 +1,4 @@
-# FiubaFav ⚙
+# FiubaFav ⭐
 
 ![](icon.png)
 
