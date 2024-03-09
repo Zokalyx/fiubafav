@@ -6,7 +6,7 @@ Extensión para mejorar la experiencia en el Campus FIUBA.
 
 # Funciones
 
-![](example.png)
+![](example.jpg)
 
 - Renombrar materias en el sidebar a un nombre personalizado
 - Elegir materias "favoritas" o "activas"
