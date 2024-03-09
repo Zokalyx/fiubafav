@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "FiubaFav",
+    "version": "1.0",
+    "description": "Mejora tu barra de navegación en el Campus FIUBA",
+    "permissions": [
+        "storage",
+        "activeTab"
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://campusgrado.fi.uba.ar/*"
+            ],
+            "css": [
+                "style.css"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}

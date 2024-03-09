@@ -1,0 +1,58 @@
+/* hay que ser específicos porque los elementos tienen algunas
+   propiedades marcadas como !important */
+#nav-drawer .list-group-item[data-parent-key="mycourses"] {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 0.25rem !important;
+}
+
+#nav-drawer .list-group-item[data-parent-key="mycourses"]:hover .custom-not-favorite {
+    opacity: 0.5;
+}
+
+.custom-not-favorite:hover {
+    opacity: 0.9 !important;
+}
+
+#nav-drawer .list-group-item[data-parent-key="mycourses"]:hover .custom-options {
+    opacity: 1.0;
+}
+
+#nav-drawer .list-group-item[data-parent-key="mycourses"]:hover .custom-deletable {
+    opacity: 1.0;
+}
+
+.custom-hidden {
+    opacity: 0.0;
+}
+
+.custom-options,
+.custom-deletable,
+.custom-not-favorite {
+    opacity: 0.0;
+    cursor: pointer;
+}
+
+.custom-favorite {
+    opacity: 1.0;
+    cursor: pointer;
+}
+
+.custom-not-deletable {
+    opacity: 0.0;
+}
+
+.list-group-item {
+    cursor: pointer;
+}
+
+
+/* Eliminar barra GIGANTE que NO SIRVE PARA NADA */
+.col-md-12.header-md {
+    display: none !important;
+}
+
+.header-main {
+    display: none !important;
+}
